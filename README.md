@@ -1,71 +1,121 @@
-# Operating System Practicals – Assignment 3 and Assignment 4
+# Operating System Assignments – 3rd & 4th Assignments
 
-The files are arranged according to the assignment grouping specified.
+This repository contains C++ programs based on Operating System concepts and algorithms covered in the 3rd and 4th assignments.
 
-## Folder structure
+The programs are organized into separate folders according to their respective assignments for easy access, understanding, execution, and practical preparation.
+
+## 📁 Repository Structure
 
 ```text
-Main folder/
+OSA_assignments_codes/
 │
 ├── 3rd assignment codes/
-│   ├── C++ Programs/
-│   │   ├── memory_allocation_first_best_worst_fit.cpp
-│   │   └── page_replacement_fifo_lru_optimal.cpp
-│   └── Virtual Lab Practical/
-│       └── Assignment_No_03_Page_Replacement_Lab.txt
+│   ├── memory_allocation_first_best_worst_fit.cpp
+│   └── page_replacement_fifo_lru_optimal.cpp
 │
-└── 4th assignment codes/
-    ├── C++ Programs/
-    │   ├── disk_scheduling_fcfs_sstf_scan_cscan.cpp
-    │   └── ip_address_subnet_identification.cpp
-    ├── Command Line Practicals/
-    │   ├── windows_file_management_commands.txt
-    │   ├── linux_file_management_commands.txt
-    │   └── linux_system_administration_commands.sh
-    └── Virtual Lab Practical/
-        └── Assignment_no_04_Contiguous_File_Allocation.txt
+├── 4th assignment codes/
+│   ├── disk_scheduling_fcfs_sstf_scan_cscan.cpp
+│   └── ip_address_subnet_identification.cpp
+│
+└── README.md
 ```
 
-## Source PDF mapping
+## 📚 Assignment 3 – Programs
 
-### 3rd assignment — first 3 PDFs
+This folder contains programs related to memory management and page replacement techniques.
 
-1. `Memory_Allocation_First_Best_Worst_Fit.pdf`
-   - `C++ Programs/memory_allocation_first_best_worst_fit.cpp`
-2. `Page_Replacement_FIFO_LRU_Optimal.pdf`
-   - `C++ Programs/page_replacement_fifo_lru_optimal.cpp`
-3. `Assignment No=03.pdf`
-   - Screenshot guide for the Page Replacement virtual-lab practical.
-   - A note is included in `Virtual Lab Practical/` because this PDF does not provide a standalone source-code program.
+| Sr. No. | Program Name | Description |
+|---|---|---|
+| 1 | Memory Allocation Algorithms | Implements First Fit, Best Fit, and Worst Fit memory allocation techniques. |
+| 2 | Page Replacement Algorithms | Implements FIFO, LRU, and Optimal page replacement algorithms. |
 
-### 4th assignment — other 5 PDFs
+### Concepts Covered
 
-1. `Assignment no =04.pdf`
-   - Screenshot guide for Contiguous File Allocation in the virtual lab.
-   - A note is included in `Virtual Lab Practical/`; no standalone C++ source code is supplied in this PDF.
-2. `Assignment no 04,Q no.02.pdf`
-   - `C++ Programs/disk_scheduling_fcfs_sstf_scan_cscan.cpp`
-3. `Assignmennt 09,Q no 03.pdf`
-   - `C++ Programs/ip_address_subnet_identification.cpp`
-4. `File_Management_Windows_and_Linux_Steps.pdf`
-   - `Command Line Practicals/windows_file_management_commands.txt`
-   - `Command Line Practicals/linux_file_management_commands.txt`
-5. `Linux_System_Administration_Practical_With_Screenshots.pdf`
-   - `Command Line Practicals/linux_system_administration_commands.sh`
+- First Fit
+- Best Fit
+- Worst Fit
+- FIFO (First In First Out)
+- LRU (Least Recently Used)
+- Optimal Page Replacement
 
-## Compile C++ programs
+## 💻 Assignment 4 – Programs
 
-Use a C++ compiler such as g++:
+This folder contains programs related to disk scheduling and IP addressing.
+
+| Sr. No. | Program Name | Description |
+|---|---|---|
+| 1 | Disk Scheduling Algorithms | Implements FCFS, SSTF, SCAN, and C-SCAN disk scheduling techniques. |
+| 2 | IP Address and Subnet Identification | Performs IP address validation and subnet identification. |
+
+### Concepts Covered
+
+- FCFS (First Come First Serve)
+- SSTF (Shortest Seek Time First)
+- SCAN Disk Scheduling
+- C-SCAN Disk Scheduling
+- IP Address Validation
+- Subnet Identification
+
+## ⚙️ Requirements
+
+To run these programs, you need:
+
+- C++ compiler (GCC/G++)
+- Visual Studio Code, Code::Blocks, or any C++ IDE
+- Basic knowledge of C++ programming
+
+## ▶️ How to Run the Programs
+
+**Step 1:** Clone the repository.
 
 ```bash
-g++ "3rd assignment codes/C++ Programs/memory_allocation_first_best_worst_fit.cpp" -o memory
-g++ "3rd assignment codes/C++ Programs/page_replacement_fifo_lru_optimal.cpp" -o page
-g++ "4th assignment codes/C++ Programs/disk_scheduling_fcfs_sstf_scan_cscan.cpp" -o disk
-g++ "4th assignment codes/C++ Programs/ip_address_subnet_identification.cpp" -o subnet
+git clone https://github.com/SiddheshSathe21/OSA_assignments_codes.git
 ```
 
-Run each executable separately. On Windows, executable names will have `.exe`.
+**Step 2:** Open the downloaded repository in VS Code or any code editor.
 
-## Safety note
+**Step 3:** Navigate to the required assignment folder.
 
-The command files are reference/practical sequences. Read and execute commands individually in a test directory. Some Linux administration commands use `sudo` and can change system settings or files. Do not run the whole file blindly.
+**Step 4:** Compile the C++ program using the following command.
+
+Example:
+
+```bash
+g++ "3rd assignment codes/memory_allocation_first_best_worst_fit.cpp" -o memory
+```
+
+**Step 5:** Run the program.
+
+For Linux:
+
+```bash
+./memory
+```
+
+For Windows:
+
+```bash
+memory.exe
+```
+
+Follow the same steps to compile and execute the other programs.
+
+## 🎯 Purpose of This Repository
+
+- To implement important Operating System algorithms using C++.
+- To understand memory management and disk scheduling concepts.
+- To practice page replacement techniques.
+- To learn IP address and subnet identification.
+- To maintain organized practical assignment programs for future reference.
+
+## 👨‍💻 Author
+
+**Siddhesh Sathe**
+
+GitHub: [@SiddheshSathe21](https://github.com/SiddheshSathe21)
+
+## ⭐ Acknowledgement
+
+Created for academic learning and practical implementation of Operating System concepts.
+
+**Subject:** Operating System (OS)
