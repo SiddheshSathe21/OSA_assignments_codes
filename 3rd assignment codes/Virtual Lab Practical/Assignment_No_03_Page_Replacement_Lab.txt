@@ -1,0 +1,10 @@
+SOURCE PDF: Assignment No=03.pdf
+
+PRACTICAL: To Implement Page Replacement Algorithms.
+
+This PDF contains a screenshot-based guide for performing the Page Replacement
+Algorithms experiment in the Operating System virtual lab. It does not contain
+a separate standalone C++ program.
+
+The related C++ implementation from the other Assignment 3 PDF is stored in:
+../C++ Programs/page_replacement_fifo_lru_optimal.cpp

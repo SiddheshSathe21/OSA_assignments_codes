@@ -1,0 +1,26 @@
+# Linux File Management Commands
+# Source: File_Management_Windows_and_Linux_Steps.pdf
+
+mkdir -p FileLab
+cd FileLab
+pwd
+
+mkdir -p Documents Backup Temp
+echo 'Hello World' > notes.txt
+tree
+
+cp notes.txt Backup/notes_copy.txt
+tree
+
+mv notes.txt welcome.txt
+tree
+
+mv welcome.txt Documents/welcome.txt
+tree
+
+rm Backup/notes_copy.txt
+rmdir Temp
+tree
+
+ls -la
+tree

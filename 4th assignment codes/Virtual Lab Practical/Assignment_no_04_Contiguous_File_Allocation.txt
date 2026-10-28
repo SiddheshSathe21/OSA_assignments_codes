@@ -1,0 +1,7 @@
+SOURCE PDF: Assignment no =04.pdf
+
+PRACTICAL: To Implement File Allocation Techniques — Contiguous Allocation.
+
+This PDF contains a screenshot-based guide for performing contiguous file
+allocation in the Operating System virtual lab. It does not contain a separate
+standalone C++ program.
